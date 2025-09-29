@@ -8,9 +8,10 @@ Find a way to make a redirection to a domain other than those showed on the web 
 Okay so first thing I tried was to directly change the site name in the get request
 
 `   
--url=https://slack.com&h=e52dc719664ead63be3d5066c135b6da HTTP/1.1 to  
-url=https://reddit.com&h=e52dc719664ead63be3d5066c135b6da HTTP/1.1  
-`
+-url=https://slack.com&h=e52dc719664ead63be3d5066c135b6da HTTP/1.1 to `  
+
+`url=https://reddit.com&h=e52dc719664ead63be3d5066c135b6da HTTP/1.1  `
+
 
 This displayed incorrect hash on the site which told me it had to do with hashing.
 Using hash identifier I figured out it was md5
