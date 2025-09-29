@@ -14,7 +14,8 @@ Using hash identifier I figured out it was md5
 
 Now, I chose to use https://www.md5hashgenerator.com/ as the target site i want to redirect to and encoded it in md5
 
-The request now looked like 
+The request now looked like   
+
 `url=https://www.md5hashgenerator.com/&h=df30cb178eb8e37728f39b3e6551c8de `
 
 This succesfully redirected and gave me the flag
