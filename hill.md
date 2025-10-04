@@ -38,3 +38,7 @@ encrypted = hill_encrypt_2x2("taskphase", matrix)
 print(encrypted)
 ```
 
+## Explanation
+Yeah it's pretty simple, divide the string into blocksize vectors, mapping A:0,B:1, etc and then take a key and multiply the vector with the key matrix to get the ciphertext basically.
+Bruteforce decryption i need to do.
+
