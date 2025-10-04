@@ -2,7 +2,8 @@
 Make an encryption and brute force decryption for hill cipher with known blocksize
 
 ## Solution
-` import numpy as np
+```
+import numpy as np
 
 matrix = np.array([[4, 4],
                    [7, 6]])
@@ -35,5 +36,5 @@ def hill_encrypt_2x2(plaintext, key):
 
 encrypted = hill_encrypt_2x2("taskphase", matrix)
 print(encrypted)
-`
+```
 
